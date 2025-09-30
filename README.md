@@ -1,7 +1,9 @@
 # Отчет по ленте
+
 ## Цель
 Скрипт для сборки отчета по ленте новостей. Отправлет отчет в чат телеграм в указаное
 время каждый день. 
+
 ## Структура отчета
 ![telegram-report](https://github.com/v-makarov-code/telegram-report-DAG/blob/main/telegram_report.png)
 - текст с информацией о значениях ключевых метрик за предыдущий день
@@ -12,4 +14,10 @@
 - DAU
 - Просмотры
 - Лайки
-- CTR 
+- CTR
+
+# Стек 
+
+- Python 3.13(numpy, pandas, telegram)
+- Apache Airflow 2.2.4
+- Clickhouse
